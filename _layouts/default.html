@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }} | {{ site.name }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/main.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        {% include nav.html %}
+        <div class="container">
+
+        {{ content }}
+
+        </div><!-- /.container -->
+        {% include footer.html %}
+        <!--footer>
+            <ul>
+                <li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+                <li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+            </ul>
+        </footer-->
+    </body>
+</html>
